@@ -1,0 +1,244 @@
+/*
+
+	Proyecto: Radio UCSAR
+
+	Maquetado por: @01Comandos
+
+	Fecha: 07/10/2016;
+
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------*/
+
+/*
+	IMPORTACIONES
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------*/
+@import 'nib'
+@import 'style-icon.styl'
+
+
+@font-face 
+    font-family 'BalooTamma-Regular'
+    src url('../fonts/BalooTamma-Regular.ttf')
+    
+@font-face 
+    font-family 'Aileron-Light'
+    src url('../fonts/Aileron-Light.otf')
+    
+@font-face 
+    font-family 'Aileron-Regular'
+    src url('../fonts/Aileron-Regular.otf')
+  
+
+/*
+	VARIABLES
+-------------------------------------------------------------------------*/
+gris-claro = #f6f6f6
+gris-texto = #969798
+gris-texto2 = #4d4d4d
+gris-texto3 = #484848
+
+gris-new = #bdccd4
+
+linkedin = #0077b5
+linkedin2 = #4c84c5
+facebook = #3B5998
+twitter = #76a9ea
+youtube = #C4302B
+instagram = #C536A4
+
+
+azul-corporativo = #274585
+azul-corporativo2 = #2196f3
+azul-corporativo3 = #5c6bc0
+
+azul-claro = #0097f6
+azul-2 = #0d47a1
+
+amarillo-mapa = #FFC107
+amarillo-hover = #ffb407
+
+verde-corporativo = #8bc34a
+verde-planes = #7fc719
+morado = #9575cd
+rosado = #f66883
+
+rojo = #ff3d00
+
+/*
+	MIXINS
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------*/
+flex-center()
+	display flex
+	flex-wrap wrap
+	justify-content center
+	
+flex-around()
+	display flex
+	flex-wrap wrap
+	justify-content space-around
+	
+flex-between()
+	display flex
+	flex-wrap wrap
+	justify-content space-between
+	
+flex-flexStart()
+	display flex
+	flex-wrap wrap
+	justify-content flex-start
+	
+flex-end()
+	display flex
+	flex-wrap wrap
+	justify-content flex-end
+	
+sombra()
+	box-shadow 2px 1px 4px rgba(0, 0, 0, 0.18)
+
+
+/*
+	CLASES MADRES
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------*/		
+body
+	font-size 16px
+	margin 0
+	background-color white
+	background-image url("../img/background-login.png")
+	background-position top
+	background-repeat no-repeat
+	background-size cover
+	height 100%
+	width 100vw
+	
+	
+h1
+h2
+h3
+h4
+h5
+h6
+	margin 0
+	padding 0
+	/*font-family 'Cabin-Bold',sans-serif*/
+
+h1
+	font-size 3em
+	font-family 'Aileron-Regular',sans-serif
+
+h2
+	font-family 'Aileron-Regular',sans-serif
+	
+h3
+	font-size 2em
+	
+h5
+h4
+	font-size 1em
+	font-family 'Aileron-Light',sans-serif
+
+h6
+	font-size 0.9em
+	font-family 'Aileron-Light',sans-serif
+			
+p
+	margin 0
+	padding 0
+	font-size 1em
+	font-family 'Aileron-Regular',sans-serif
+	
+figure
+	margin 0
+
+ul
+	margin 0
+	padding 0
+	li
+		list-style none
+
+a
+	text-decoration none
+
+
+/*
+	HEADER
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------*/
+.header
+	text-align center
+	ul
+		flex-center()
+		margin 2.5em 0 0.7em 0
+		li
+			margin-right 0.2em
+			a
+				display inline-block
+				img
+					width 2em
+			&:last-child
+				margin-right 0
+				
+	figure
+		width 12em
+		margin 0 auto
+		img
+			width 100%
+
+
+/*
+	INDEX
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------*/
+
+				
+
+	
+
+
+/*
+	FOOTER
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------*/
+.footerContainer
+	text-align center
+	padding 0 1em
+	.item-promo	
+		flex-center()
+		h5
+			width 100%
+			font-size 1em
+		figure
+			width 12em
+			padding-right 1em
+			img
+				width 100%
+			&:nth-child(3)
+				padding-right 0
+
+		h4
+			width 100%
+			font-size 1.1em
+			strong
+				color azul-claro
+				font-family 'Aileron-Regular',sans-serif
+				
+	.derechos
+		margin-top 0.9em
+		h3
+			margin-top -.2em
+			a
+				font-family 'BalooTamma-Regular',sans-serif
+				font-size 0.5em
+				display inline-block
+				color gris-new
+				text-transform uppercase
+				transition .2s linear
+				&:hover
+					color azul-corporativo3
+	
+	
+
+		
+@import 'media-queries.styl'    			
