@@ -1,7 +1,7 @@
 <footer class="footerContainer">
 	<!--APOYADO POR-->
 	<section class="item-promo">
-		<h5>Apoyado por</h5>
+		<h5>Respaldado por</h5>
 
 		<!--IMAGEN 1-->
 		<figure>

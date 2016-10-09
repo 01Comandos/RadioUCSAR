@@ -5,7 +5,7 @@
     <title>Radio UCSAR</title>
     <meta name="author" content="@01Comandos">
     <meta name="description" content="Somos la radio oficial de La Universidad Católica Santa Rosa, transmitiendo desde la primogénita del continente americano.">
-    <meta name="keywords" content="Radio UCSAR, radios en venezuela, radio de la universidad catolica santa rosa, radio santa rosa, radios universitarias, universidades con radios, estaciones de radio, radios en cumana">
+    <meta name="keywords" content="Radio UCSAR, radios en venezuela, radio de la universidad catolica santa rosa, radio santa rosa, radios universitarias, universidades con radios, estaciones de radio, radios en cumana, radioucsar.com.ve">
     <!-- FIN DE METADATOS -->
 
     <!-- ESTILOS -->    
@@ -21,3 +21,13 @@
     <![endif]-->
     
     <!--GOOGLE ANALYTICS-->
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-85428127-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
