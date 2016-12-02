@@ -1,6 +1,6 @@
 /*
 
-	Proyecto: Radio UCSAR
+	Proyecto: ISDEC RADIO
 
 	Maquetado por: @01Comandos
 
@@ -39,14 +39,6 @@ gris-texto3 = #484848
 
 gris-new = #bdccd4
 
-linkedin = #0077b5
-linkedin2 = #4c84c5
-facebook = #3B5998
-twitter = #76a9ea
-youtube = #C4302B
-instagram = #C536A4
-
-
 azul-corporativo = #274585
 azul-corporativo2 = #2196f3
 azul-corporativo3 = #5c6bc0
@@ -54,15 +46,6 @@ azul-corporativo3 = #5c6bc0
 azul-claro = #0097f6
 azul-2 = #0d47a1
 
-amarillo-mapa = #FFC107
-amarillo-hover = #ffb407
-
-verde-corporativo = #8bc34a
-verde-planes = #7fc719
-morado = #9575cd
-rosado = #f66883
-
-rojo = #ff3d00
 
 /*
 	MIXINS
@@ -205,13 +188,16 @@ a
 		display none !important
 
 .socialMedia
-	width 20em
+	width 40em
 	margin 2em auto
-	height 20em
-	overflow-y scroll
-	overflow-x hidden
+	/*height 20em*/
+	text-align center
+	flex-center()
 	.item
 		height 100%
+		margin-right 1em
+		&:last-child
+			margin-right 0
 
 	
 

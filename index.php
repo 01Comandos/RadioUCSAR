@@ -15,7 +15,13 @@
 	<section class="socialMedia">
 		<!--TIMELINE-->
 		<div class="item">
-			<a class="twitter-timeline" href="https://twitter.com/radioucsar">Tweets by radioucsar</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+			<a class="twitter-timeline" data-width="252" data-height="319" href="https://twitter.com/isdecradio">Tweets by isdecradio</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+		</div>
+
+		<!--INSTAGRAM-->
+		<div class="item">
+			 <!-- LightWidget WIDGET -->
+			 <script src="//lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/416d610b6a3b5b54985110d06bf6e1bc.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>
 		</div>
 	</section>
 		

@@ -2,10 +2,10 @@
     <link rel="shortcut icon" href="img/favicon.ico" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Radio UCSAR</title>
+    <title>ISDEC Radio</title>
     <meta name="author" content="@01Comandos">
     <meta name="description" content="Somos la radio oficial de La Universidad Católica Santa Rosa, transmitiendo desde la primogénita del continente americano.">
-    <meta name="keywords" content="Radio UCSAR, radios en venezuela, radio de la universidad catolica santa rosa, radio santa rosa, radios universitarias, universidades con radios, estaciones de radio, radios en cumana, radioucsar.com.ve">
+    <meta name="keywords" content="Radio UCSAR, ISDEC Radio, radios en venezuela, radio de la universidad catolica santa rosa, radio santa rosa, radios universitarias, universidades con radios, estaciones de radio, radios en cumana, isdecradio.com.ve">
     <!-- FIN DE METADATOS -->
 
     <!-- ESTILOS -->    
@@ -27,7 +27,7 @@
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-85428127-1', 'auto');
+  ga('create', 'UA-88381205-1', 'auto');
   ga('send', 'pageview');
 
 </script>
